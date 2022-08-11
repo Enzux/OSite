@@ -72,7 +72,7 @@ header main ul li a:hover{
 .caixa2{
     background-color: rgb(106, 106, 106);
     width: 32%;
-    min-height: 520px;
+    min-height: 550px;
     border: 1px black solid;
     float: right;
     margin-right: 13.5px;
@@ -118,8 +118,9 @@ header main ul li a:hover{
 }
 .titleBottom-caixa2{
     background-color: rgb(56, 52, 53);
-    margin-top: 60px;
-    margin-left: 53px;
+    margin-top: 55px;
+    margin-left: 40px;
+    margin-right: 40px;
     max-width: 500px;
     color: white;
     display: flex;
@@ -130,13 +131,13 @@ header main ul li a:hover{
     font-weight: bold;
 }
 .bottom-caixa2 ul{
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .bottom-caixa2 li{
     list-style: none;
     color: white;
     position: relative;
-    margin: 15px 60px;
+    margin: 10px 60px;
 }
 .bottom-caixa2 ul li::before{
     content: '●';
@@ -152,7 +153,7 @@ header main ul li a:hover{
     height: 30px;
     border: 1px black solid;
     position: absolute;
-    bottom: -780px;
+    bottom: -789px;
     background-image: url("imagem/grama.png");
     background-position: center;
     background-repeat: no-repeat;

@@ -3,10 +3,12 @@
     padding: 0;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 body{
     min-height: 1350px;
 }
+
 header img{
     width:100%;
     height: 290px;
@@ -36,6 +38,13 @@ header main ul li a:hover{
     color: black;
     font-style: italic;
 }
+/*Cabecalho*/
+.cabecalho{
+    width: 100%;
+    min-height: 330px;
+    border: 1px black solid;
+}
+/*Destaque*/
 .destaque{
     width: 65%;
     min-height: 460px;
@@ -43,6 +52,7 @@ header main ul li a:hover{
     float: left;
     margin-top: 15px;
 }
+/*Lado*/
 .lado {
     width: 34%;
     min-height: 1039px;
@@ -50,6 +60,7 @@ header main ul li a:hover{
     float: right;
     margin-top: 15px;
 }
+/*Caixa1*/
 .caixa1{
     width: 32%;
     min-height: 560px;
@@ -57,20 +68,91 @@ header main ul li a:hover{
     float: left;
     margin-top: 15px;
 }
+/*Caixa2*/
 .caixa2{
+    background-color: rgb(106, 106, 106);
     width: 32%;
-    min-height: 560px;
+    min-height: 520px;
     border: 1px black solid;
     float: right;
     margin-right: 13.5px;
     margin-top: 15px;
 }
+.top-caixa2{
+    background-color: rgb(56, 52, 53);
+    color: white;
+    width: 100%;
+    height: 50px;
+}
+.top-caixa2 h1{
+    font-size: 30px;
+    padding: 6px 25px;
+}
+.side-caixa2{
+    color: white;
+}
+.side-caixa2 h2{
+    margin: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.side-caixa2 p{
+    width: 95%;
+    margin-left: 15px;
+    margin-top: 10px;
+    letter-spacing: 0.01em;
+}
+.caixa2 input[type="button"]{
+    border: none;
+    background-color: lightgrey;
+    float: right;
+    width: 100px;
+    height: 25px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    right: 25px;
+}
+.caixa2 input[type="button"]:hover{
+    border: 1px solid black;
+}
+.titleBottom-caixa2{
+    background-color: rgb(56, 52, 53);
+    margin-top: 60px;
+    margin-left: 53px;
+    max-width: 500px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.titleBottom-caixa2 h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+.bottom-caixa2 ul{
+    margin-top: 20px;
+}
+.bottom-caixa2 li{
+    list-style: none;
+    color: white;
+    position: relative;
+    margin: 15px 60px;
+}
+.bottom-caixa2 ul li::before{
+    content: '●';
+    margin: 0 2px;
+    display: inline-block;
+    position: absolute;
+    left: -1em;
+    color: black
+}
+/*Rodapé*/
 .rodape{
     width: 100%;
     height: 30px;
     border: 1px black solid;
     position: absolute;
-    bottom: -760px;
+    bottom: -780px;
     background-image: url("imagem/grama.png");
     background-position: center;
     background-repeat: no-repeat;

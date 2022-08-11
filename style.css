@@ -3,7 +3,6 @@
     padding: 0;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-family: Arial;
 }
 body{
     min-height: 1350px;
@@ -205,7 +204,7 @@ header main ul li a:hover{
     height: 30px;
     border: 1px black solid;
     position: absolute;
-    bottom: -789px;
+    bottom: -770px;
     background-image: url("imagem/grama.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -225,4 +224,25 @@ header main ul li a:hover{
 .rodape h4{
     font-size: 20px;
     margin-top: 4px;
+    margin-top: 57%;
+}
+
+.lado-2{
+   background-color: blue; 
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 15%;
+}
+.mais-lidos{
+    margin-left: 20px;
+}
+.lidos{
+    background-color: brown;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.links{
+    margin-left: 15px;
+    text-decoration: none;
 }

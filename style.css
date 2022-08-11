@@ -67,9 +67,10 @@ header main ul li a:hover{
 }
 .rodape{
     width: 100%;
-    min-height: 30px;
+    height: 30px;
     border: 1px black solid;
-    margin-top: 57%;
+    position: absolute;
+    bottom: -760px;
     background-image: url("imagem/grama.png");
     background-position: center;
     background-repeat: no-repeat;

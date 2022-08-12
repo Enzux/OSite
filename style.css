@@ -1,50 +1,59 @@
-*{
+* {
     margin: 0;
     padding: 0;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-body{
+
+body {
     min-height: 1350px;
 }
 
-header img{
-    width:100%;
+header img {
+    width: 100%;
     height: 290px;
 }
-header main{
+
+header main {
     background-color: darkgreen;
 }
-header main ul{
+
+header main ul {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     font-weight: bold;
 }
-header main ul li{
+
+header main ul li {
     border-right: 1px solid black;
     padding-right: 4%;
 }
-header main ul li:last-child{
+
+header main ul li:last-child {
     border: none;
 }
-header main ul li a{
+
+header main ul li a {
     text-decoration: none;
     color: white;
 }
-header main ul li a:hover{
+
+header main ul li a:hover {
     color: black;
     font-style: italic;
 }
+
 /*Cabecalho*/
-.cabecalho{
+.cabecalho {
     width: 100%;
     min-height: 310px;
     border: 1px black solid;
 }
+
 /*Destaque*/
-.destaque{
+.destaque {
     background-color: rgb(106, 106, 106);
     width: 65%;
     min-height: 360px;
@@ -52,44 +61,52 @@ header main ul li a:hover{
     float: left;
     margin-top: 15px;
 }
-.top-destaques{
+
+.top-destaques {
     background-color: rgb(56, 52, 53);
     color: white;
     width: 100%;
     height: 60px;
 }
-.top-destaques h1{
+
+.top-destaques h1 {
     font-size: 40px;
     padding: 5px 25px;
 }
-.side-destaques{
+
+.side-destaques {
     width: 60%;
     height: 380px;
     color: white;
     float: right;
 }
-.side-destaques h2{
+
+.side-destaques h2 {
     font-size: 30px;
     font-weight: bold;
     margin-top: 55px;
 }
-.side-destaques p{
+
+.side-destaques p {
     margin-top: 20px;
     letter-spacing: 0.01em;
 }
-.img-destaques{
+
+.img-destaques {
     width: 40%;
     height: 380px;
     float: left;
 }
-.img-destaques img{
+
+.img-destaques img {
     width: 280px;
     height: auto;
     position: relative;
     left: 30px;
     top: 60px;
 }
-.destaque input[type="button"]{
+
+.destaque input[type="button"] {
     border: none;
     background-color: lightgrey;
     float: right;
@@ -100,9 +117,11 @@ header main ul li a:hover{
     bottom: 110px;
     right: 25px;
 }
-.destaque input[type="button"]:hover{
+
+.destaque input[type="button"]:hover {
     border: 1px solid black;
 }
+
 /*Lado*/
 .lado {
     width: 34%;
@@ -113,15 +132,91 @@ header main ul li a:hover{
 }
 
 /*Caixa1*/
-.caixa1{
+.caixa1 {
     width: 32%;
     min-height: 560px;
     border: 1px black solid;
     float: left;
     margin-top: 15px;
 }
+
+.caixa1 {
+    width: 32%;
+    min-height: 560px;
+    border: 1px black solid;
+    float: left;
+    margin-top: 15px;
+}
+
+.titulo1 {
+    height: 50px;
+    width: 100%;
+    padding-top: 20px;
+    background-image: url("imagem/grama.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titulo1 h1 {
+    font-size: 26px;
+    margin-left: 16px;
+}
+
+.aemdestaque {
+    height: 200px;
+    width: 90%;
+    position: relative;
+    left: 20px;
+    top: 25px;
+}
+
+.aemdestaque h3 b {
+    font-size: 23px;
+}
+
+.aemdestaque p {
+    font-size: 20px;
+    margin-top: 17px;
+}
+
+.aemdestaque button {
+    width: 70px;
+    height: 17px;
+    margin-top: 6px;
+    background-image: url("imagem/grama2.png");
+    background-position: center;
+    background-repeat: repeat;
+    border: none;
+    float: right;
+}
+
+.maisartigos {
+    width: 90%;
+    height: 270px;
+    position: relative;
+    left: 20px;
+    top: 60px;
+}
+
+.maisartigos ul li {
+    font-size: 20px;
+    position: relative;
+    top: 10px;
+    left: 40px;
+    margin-top: 10px;
+}
+
+.titulo2 {
+    text-align: center;
+    background-image: url("imagem/grama.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*Caixa2*/
-.caixa2{
+.caixa2 {
     background-color: rgb(106, 106, 106);
     width: 32%;
     min-height: 550px;
@@ -130,30 +225,36 @@ header main ul li a:hover{
     margin-right: 13.5px;
     margin-top: 15px;
 }
-.top-caixa2{
+
+.top-caixa2 {
     background-color: rgb(56, 52, 53);
     color: white;
 }
+
 /*Rodapé*/
-.top-caixa2 h1{
+.top-caixa2 h1 {
     font-size: 30px;
     padding: 6px 25px;
 }
-.side-caixa2{
+
+.side-caixa2 {
     color: white;
 }
-.side-caixa2 h2{
+
+.side-caixa2 h2 {
     margin: 15px;
     font-size: 25px;
     font-weight: bold;
 }
-.side-caixa2 p{
+
+.side-caixa2 p {
     width: 95%;
     margin-left: 15px;
     margin-top: 10px;
     letter-spacing: 0.01em;
 }
-.caixa2 input[type="button"]{
+
+.caixa2 input[type="button"] {
     border: none;
     background-color: lightgrey;
     float: right;
@@ -164,10 +265,12 @@ header main ul li a:hover{
     top: 10px;
     right: 25px;
 }
-.caixa2 input[type="button"]:hover{
+
+.caixa2 input[type="button"]:hover {
     border: 1px solid black;
 }
-.titleBottom-caixa2{
+
+.titleBottom-caixa2 {
     background-color: rgb(56, 52, 53);
     margin-top: 55px;
     margin-left: 40px;
@@ -177,20 +280,24 @@ header main ul li a:hover{
     display: flex;
     justify-content: center;
 }
-.titleBottom-caixa2 h1{
+
+.titleBottom-caixa2 h1 {
     font-size: 20px;
     font-weight: bold;
 }
-.bottom-caixa2 ul{
+
+.bottom-caixa2 ul {
     margin-top: 15px;
 }
-.bottom-caixa2 li{
+
+.bottom-caixa2 li {
     list-style: none;
     color: white;
     position: relative;
     margin: 10px 60px;
 }
-.bottom-caixa2 ul li::before{
+
+.bottom-caixa2 ul li::before {
     content: '●';
     margin: 0 2px;
     display: inline-block;
@@ -198,8 +305,9 @@ header main ul li a:hover{
     left: -1em;
     color: black
 }
+
 /*Rodapé*/
-.rodape{
+.rodape {
     width: 100%;
     height: 30px;
     border: 1px black solid;
@@ -210,7 +318,8 @@ header main ul li a:hover{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#Busca{
+
+#Busca {
     width: 90%;
     margin-left: 5%;
     border: 2px solid black;
@@ -221,27 +330,30 @@ header main ul li a:hover{
     font-weight: bold;
     margin-bottom: 5%;
 }
-.rodape h4{
+
+.rodape h4 {
     font-size: 20px;
     margin-top: 4px;
 }
 
-.lado-2{
-   background-color: blue; 
-   margin-left: 20px;
-   margin-right: 20px;
-   margin-top: 15%;
+.lado-2 {
+    background-color: blue;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15%;
 }
-.mais-lidos{
+
+.mais-lidos {
     margin-left: 20px;
 }
-.lidos{
+
+.lidos {
     background-color: brown;
     margin-left: 20px;
     margin-right: 20px;
 }
 
-.links{
+.links {
     margin-left: 15px;
     text-decoration: none;
 }

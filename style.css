@@ -349,7 +349,7 @@ header main ul li a:hover {
 }
 
 .lado-2 {
-    background-color: blue;
+
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 15%;
@@ -357,10 +357,13 @@ header main ul li a:hover {
 
 .mais-lidos {
     margin-left: 20px;
+    background-image: url("imagem/grama.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .lidos {
-    background-color: brown;
     margin-left: 20px;
     margin-right: 20px;
 }
